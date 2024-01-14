@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Světlá barva pozadí */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd; /* Světlejší barva pro header */
+    color: #333; /* Tmavá barva textu v headeru */
+}
+
+h1 {
+    color: #cc0000; /* Světle červená barva pro nadpis */
+    font-weight: bold;
+    font-size: 3em;
+}
+
+nav {
+    background-color: #555; /* Světlejší barva pro navigaci */
+    color: white;
+    text-align: center; /* Zarovnání odkazů na střed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block; /* Odkazy na jedné řadě vedle sebe */
+    margin-right: 20px; /* Odsazení mezi odkazy */
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #f2f2f2; /* Světlá barva pro hlavní obsah */
+    border-radius: 10px; /* Zaoblené rohy */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Stínový efekt */
+}
+
+.main-text-container {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 1.4em; /* Zvětšení velikosti textu */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd; /* Světlejší barva pro footer */
+    color: #333; /* Tmavá barva textu v footeru */
+    clear: both;
+}
+
+.podpis {
+    font-size: 0.8em;
+}
